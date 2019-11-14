@@ -2,7 +2,7 @@ import React from "react"
 import {Navbar, Nav} from "react-bootstrap" 
 import {Link} from "gatsby"
 export default (props) => (
-    <div>
+    <header>
         <Navbar bg="light" expand="lg">
             <Navbar.Brand href="/">Gastby-Bootstrap</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -20,5 +20,5 @@ export default (props) => (
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
-    </div>
+    </header>
 )
